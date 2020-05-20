@@ -14,7 +14,7 @@ public class excelRead1
 	
 	public void readExceldata() throws IOException
 	{
-		FileInputStream fis = new FileInputStream("C:/Users/user/eclipse-workspace/dataread/dataExcel.xlsx");
+		FileInputStream fis = new FileInputStream("C:/Users/user/git/readexcelexcercise/dataread/dataExcel1.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheet("sheet1");
 	XSSFRow	row = sheet.getRow(0);
